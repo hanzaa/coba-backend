@@ -24,7 +24,7 @@ const register = async(req, res, next) => {
                 return res.status(201).send('data added succesfully!');
             }
         })
-        res.send('data added succesfully!')
+ 
         
     } catch (error) {
         res.send('Input failure!')
